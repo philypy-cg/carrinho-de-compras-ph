@@ -34,7 +34,7 @@ button {
 /* sobre.html */
 /* Header */
 .main-header {
-  background-image: url("images/background-image.png");
+  background-image: url("./assets/img/background-image.png");
   background-position: 50% 39%;
 
   display: flex;
