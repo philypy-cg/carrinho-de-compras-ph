@@ -34,7 +34,7 @@ button {
 /* sobre.html */
 /* Header */
 .main-header {
-  background-image: url("../img/background-image.png");
+  background-image: url("../img/background-image.jpg");
   background-position: 50% 39%;
 
   display: flex;
@@ -53,7 +53,9 @@ button {
 .nav-item {
   text-transform: uppercase;
   color: var(--white);
-  transition: 0.2s;
+  transition: 0.1s;
+
+
 }
 
 .nav-item:hover {
