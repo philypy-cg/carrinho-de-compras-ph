@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Rock+Salt&display=swap");
 
 :root {
   --white: #fff;
@@ -13,7 +13,10 @@
   box-sizing: border-box;
 }
 
-body, button, input, textarea {
+body,
+button,
+input,
+textarea {
   font: 400 16px "Roboto", sans-serif;
 }
 
@@ -29,7 +32,6 @@ a {
 button {
   cursor: pointer;
 }
-
 
 /* sobre.html */
 /* Header */
@@ -52,10 +54,9 @@ button {
 
 .nav-item {
   text-transform: uppercase;
-  color: var(--white);
-  transition: 0.1s;
-
-
+  color: darkred;
+  transition: 0.5s;
+  transform: scale(2);
 }
 
 .nav-item:hover {
@@ -71,7 +72,6 @@ hr {
   font-size: 54px;
 }
 
-
 /* Main */
 .main-section {
   padding: 40px 0 64px;
@@ -80,11 +80,11 @@ hr {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 0 16px
+  padding: 0 16px;
 }
 
 .section-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 32px;
   text-align: center;
   text-transform: uppercase;
@@ -106,7 +106,6 @@ hr {
 .section-description + .section-description {
   margin-top: 16px;
 }
-
 
 /*  Footer  */
 .main-footer {
@@ -143,7 +142,6 @@ hr {
   width: 32px;
   height: 32px;
 }
-
 
 /* index.html */
 .watch-trailer-button {
@@ -206,8 +204,6 @@ hr {
 .buy-ticket-button {
   width: 20%; /* Ficou faltando 4% para 100% de width: para deixar as bordas sobrando um pouco */
 }
-
-
 
 /* loja.html */
 
@@ -364,8 +360,6 @@ hr {
   filter: brightness(0.8);
 }
 
-
-
 /* Responsividade */
 @media (max-width: 584px) {
   .movie-title-large {
@@ -397,7 +391,6 @@ hr {
     margin-top: 12px;
     padding: 12px 2px;
   }
-
 
   .products-container {
     justify-content: center;
