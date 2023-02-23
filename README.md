@@ -10,8 +10,8 @@
 
 O Objetivo deste projeto foi se aprofundar e aprimorar os conhecimentos em Javascript
 
-- Foi criada uma estrutura simples no HTML
-- Criado um visual moderno e responsivo com o CSS
+- Foi criada uma estrutura simples no HTML;
+- Criado um visual moderno e responsivo com o CSS;
 - Utilizada uma forma robusta e funcional para realizar as operações com Javascript para que o cliente adicione o produto como também possa remover o produto e por fim finalizar a compra.
 
 
